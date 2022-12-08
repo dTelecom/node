@@ -10,13 +10,13 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	log "github.com/pion/ion-sfu/pkg/logger"
-	"github.com/pion/ion-sfu/pkg/middlewares/datachannel"
-	"github.com/pion/ion-sfu/pkg/sfu"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sourcegraph/jsonrpc2"
 	websocketjsonrpc2 "github.com/sourcegraph/jsonrpc2/websocket"
 	"github.com/spf13/viper"
+	log "main/pkg/logger"
+	"main/pkg/middlewares/datachannel"
+	"main/pkg/sfu"
 	"main/server"
 )
 
